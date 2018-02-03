@@ -897,6 +897,10 @@ animation: float 4s ease-in-out infinite;
     background-color: #fbfbfb;
 }
 
+.secLightGrey{
+  background-color: #f5f5f5;
+}
+
 .secDarkgrey{
     background-color: #f1f1f1;
 }
@@ -1757,10 +1761,11 @@ animation: float 4s ease-in-out infinite;
 
 .contactMe #titleTwo{
   color: #3276ff;
+  color: #262626;
 }
 
 .contactMe{
-  background-image: linear-gradient(to left, transparent, transparent 50%, #f5f5f5 50%, #f5f5f5);
+  background-image: linear-gradient(to left, transparent, transparent 50%, #f1f1f1 50%, #f1f1f1);
   background-position: 100% 0;
   background-size: 200% 100%;
   transition: all .25s ease-in;
