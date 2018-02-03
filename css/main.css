@@ -1780,6 +1780,7 @@ animation: float 4s ease-in-out infinite;
 
 .contactMe:hover #titleTwo{
   color: #262626 !important;
+  transform: scale(.95);
 }
 
 .contactMe:active #titleTwo{
