@@ -1597,7 +1597,7 @@ animation: float 4s ease-in-out infinite;
   min-height: 460px;
   margin-bottom: 0;
   border-radius: 4px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03), 0 20px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03), 0 20px 30px rgba(0, 0, 0, 0.12);
   transition: all 0.3s ease;
   transform: translateZ(0);
   top: 0;
@@ -1610,7 +1610,7 @@ animation: float 4s ease-in-out infinite;
 
 .stories .card:hover {
   top: -6px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03), 0 30px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03), 0 30px 30px rgba(0, 0, 0, 0.14);
 }
 
 .stories .card:active{
@@ -2118,7 +2118,7 @@ animation: float 4s ease-in-out infinite;
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-      
+
 
         .flexSmall{
           display: flex;
@@ -2368,6 +2368,10 @@ animation: float 4s ease-in-out infinite;
             margin-top: -24px;
         }
 
+        .lockedFix{
+          margin-top: 0px !important;
+        }
+
 
 
 
@@ -2410,6 +2414,10 @@ animation: float 4s ease-in-out infinite;
 
         .contentSidePad{
           margin: 0 25px;
+        }
+
+        .lockedFix{
+          margin-top: 8px;
         }
 
 
