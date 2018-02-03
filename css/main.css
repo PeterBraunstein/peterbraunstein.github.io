@@ -355,6 +355,7 @@ img, video{
     padding: 16px 24px;
     transition:.2s;
     font-family: 'poppins';
+    font-weight: 600;
    /* background-color: #cacaca;*/
     border-radius: 2px;
     font-size: 14px;
@@ -394,6 +395,7 @@ a:hover{
 
 .poppins{
   font-family: poppins !important;
+  font-weight: 600 !important;
 }
 
 
@@ -711,7 +713,7 @@ header{
     /* new styles */
     font-size: 90px;
     line-height: 90px;
-    font-weight: 800;
+    font-weight: 600;
     font-family: 'Poppins';
     color: #ffc107;
     color: white;
@@ -968,7 +970,7 @@ animation: float 4s ease-in-out infinite;
 .secSub{
     font-family: 'poppins', sans-serif;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 600;
 }
 
 .secSubAbout{
@@ -1542,7 +1544,7 @@ animation: float 4s ease-in-out infinite;
 .proTag{
   font-size: 10px;
   line-height: 10px;
-  font-weight: 400;
+  font-weight: 600;
   font-family: poppins;
   padding: 6px 10px 6px 10px;
   text-align: center;
@@ -1705,6 +1707,7 @@ animation: float 4s ease-in-out infinite;
 
 .proNamePlus{
   padding-bottom:24px;
+  font-family: 'poppins';
   font-weight:600;
   font-size:32px;
   max-width: 600px;
@@ -1712,7 +1715,7 @@ animation: float 4s ease-in-out infinite;
 }
 
 .col-sm-12 .proNamePlus{
-  font-size: 48px;
+  font-size: 44px;
 }
 
 
