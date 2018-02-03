@@ -1707,7 +1707,7 @@ animation: float 4s ease-in-out infinite;
 
 .proNamePlus{
   padding-bottom:24px;
-  font-family: 'poppins';
+  /* font-family: 'poppins'; */
   font-weight:600;
   font-size:32px;
   max-width: 600px;
@@ -1715,7 +1715,7 @@ animation: float 4s ease-in-out infinite;
 }
 
 .col-sm-12 .proNamePlus{
-  font-size: 44px;
+  font-size: 48px;
 }
 
 
