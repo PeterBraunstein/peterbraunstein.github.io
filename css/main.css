@@ -669,6 +669,10 @@ header{
     background-color: white;
 }
 
+.blackText{
+  color: black !important;
+}
+
 .csHeader{
     height: 128px;
     width: 100px;
@@ -1536,13 +1540,16 @@ animation: float 4s ease-in-out infinite;
   line-height: 10px;
   font-weight: 400;
   font-family: poppins;
-  padding: 3px 5px 2px 5px;
+  padding: 6px 10px 6px 10px;
   text-align: center;
   background-color: #eee;
+  background-color: #313131;
   margin: 0 3px;
   color: #727272;
   color: #8e8c8c;
+  color: #e0e0e0;
   border-radius: 3px;
+  display: inline-block;
 }
 
 .proTagOne{
@@ -1569,6 +1576,149 @@ animation: float 4s ease-in-out infinite;
   font-size: 18px;
   margin-top: 8px;
 }
+
+
+
+
+
+/* new card section */
+
+
+.stories{
+  margin-top: 30px;
+}
+
+.stories .card {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background-color: #05f;
+  color: #000;
+  min-height: 460px;
+  margin-bottom: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03), 0 20px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  transform: translateZ(0);
+  top: 0;
+  will-change: top;
+}
+
+.col-md-4 .card{
+  min-height: 360px;
+}
+
+.stories .card:hover {
+  top: -6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03), 0 30px 30px rgba(0, 0, 0, 0.12);
+}
+
+.stories .card:active{
+  transform: scale(.9);
+}
+
+.stories .card .info {
+  position: absolute;
+  padding: 40px;
+  width: 100%;
+  color: #FFF;
+  bottom: 0;
+}
+
+.stories .card .ava {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.stories .card .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -101px;
+  margin-left: -111px;
+  width: 222px;
+  height: 222px;
+}
+
+.stories .card > .background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+  will-change: transform;
+}
+
+.stories .card > .brn-ten{
+  filter:brightness(10%);
+}
+
+.stories .card > .brn-twenty{
+  filter:brightness(20%);
+}
+
+.stories .card > .brn-thirty{
+  filter:brightness(30%);
+}
+
+.stories .card > .brn-fourty{
+  filter:brightness(40%);
+}
+
+.stories .card > .brn-fifty{
+  filter:brightness(50%);
+}
+
+.stories .card > .brn-sixty{
+  filter:brightness(60%);
+}
+
+.stories .card > .brn-seventy{
+  filter:brightness(70%);
+}
+
+.stories .card > .brn-eighty{
+  filter:brightness(80%);
+}
+
+.stories .card > .brn-ninety{
+  filter:brightness(90%);
+}
+
+
+
+.stories .card:hover > .background-image {
+  transform: scale(1.05);
+  opacity: .85;
+}
+
+
+.proNamePlus{
+  padding-bottom:24px;
+  font-weight:600;
+  font-size:32px;
+  max-width: 600px;
+  line-height: 1.2;
+}
+
+.col-sm-12 .proNamePlus{
+  font-size: 48px;
+}
+
+
+.col-sm-4 .proNamePlus{
+  font-size: 24px;
+}
+
+
+
+/* end card sec */
 
 
 .pageEnd{
@@ -1961,13 +2111,14 @@ animation: float 4s ease-in-out infinite;
         font-size: 40px !important;
         line-height: 124px;
       }
+
     }
 
 
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-
+      
 
         .flexSmall{
           display: flex;
@@ -1999,6 +2150,15 @@ animation: float 4s ease-in-out infinite;
           width: auto !important;
           text-align: center;
           max-height: 400px;
+        }
+
+
+        .proNamePlus{
+          font-size: 32px !important;
+        }
+
+        .stories .card .info{
+          padding: 20px;
         }
 
 
