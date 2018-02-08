@@ -6,6 +6,12 @@ console.log("860.841.2652");
 console.log("Connect with me on LinkedIn ---> https://www.linkedin.com/in/peterbraunstein");
 
 
+setTimeout(doSomething, 100);
+
+function doSomething() {
+   $('.titleContainer').removeClass('hidden');
+};
+
 
 // Select all links with hashes
 $('a[href*="#"]')
