@@ -7,9 +7,14 @@ console.log("Connect with me on LinkedIn ---> https://www.linkedin.com/in/peterb
 
 
 setTimeout(doSomething, 100);
+setTimeout(doSomethingTwo, 10);
 
 function doSomething() {
    $('.titleContainer').removeClass('hidden');
+};
+
+function doSomethingTwo() {
+   $('.rightNav').removeClass('hidden');
 };
 
 
