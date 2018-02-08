@@ -15,6 +15,7 @@ function doSomething() {
 
 function doSomethingTwo() {
    $('.rightNav').removeClass('hidden');
+   $('.goDown').removeClass('hidden');
 };
 
 
