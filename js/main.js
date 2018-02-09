@@ -7,7 +7,7 @@ console.log("Connect with me on LinkedIn ---> https://www.linkedin.com/in/peterb
 
 
 setTimeout(doSomething, 100);
-setTimeout(doSomethingTwo, 10);
+setTimeout(doSomethingTwo, 100);
 
 function doSomething() {
    $('.titleContainer').removeClass('hidden');
@@ -16,6 +16,7 @@ function doSomething() {
 function doSomethingTwo() {
    $('.rightNav').removeClass('hidden');
    $('.goDown').removeClass('hidden');
+   $('.bubbleContainer').removeClass('hidden');
 };
 
 
@@ -149,9 +150,9 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll != 0) {
-        $(".glyphicon-menu-down").removeClass("bounce");
+        $(".glyphicon-triangle-bottom").removeClass("bounce");
     } else {
-        $(".glyphicon-menu-down").addClass("bounce");
+        $(".glyphicon-triangle-bottom").addClass("bounce");
     }
 });
 

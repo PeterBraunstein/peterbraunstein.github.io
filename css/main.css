@@ -666,6 +666,7 @@ header{
 .clipBottom{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+  margin-top: -1px;
 }
 
 #whiteText{
@@ -753,10 +754,15 @@ header{
     margin: -25px auto -25px auto;
 }
 
+.bubbleContainer{
+  width: 148px;
+  margin: -37px auto 0 auto;
+}
+
 
 .goDown .glyphicon{
     padding: 17px;
-    background-color: #141414;
+    background-color: #191919;
     color: white;
     display: block;
     border-radius: 100%;
@@ -789,7 +795,7 @@ header{
 }
 
 .bounce {
-  background: #262626 !important;
+  background: #191919 !important;
   transition: .5s;
   animation-name: bounce;
   transform-origin: center bottom;
