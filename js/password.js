@@ -19,7 +19,7 @@ var password = prompt("This page is protected due to legal requirements. If you 
       window.history.back();
       console.log("null baby");
     }
-  	else if (password == "rgba") {
+  	else if (password == "okgoogle") {
   		alert("You got it!\n\rClick 'OK' to view the page.");
         console.log("Someone accessed a private page.");
     }
