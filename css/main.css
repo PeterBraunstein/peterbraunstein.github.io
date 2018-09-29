@@ -728,10 +728,14 @@ header{
 }
 
 .titleContainer{
-    margin-top: 26vh;
+    margin-top: 32vh;
 
     /* new sytles */
     /* margin-top: 20vh; */
+}
+
+.titleContainerPro{
+  margin-top: 26vh;
 }
 
 .title{
@@ -2173,6 +2177,10 @@ animation: float 4s ease-in-out infinite;
         margin-top: 30vh !important;
       }
 
+      .titleContainerPro{
+        margin-top: 20vh !important;
+      }
+
       .titleContainer h2{
         font-size: 40px !important;
         line-height: 124px;
@@ -2411,6 +2419,7 @@ animation: float 4s ease-in-out infinite;
         .titleContainer{
           margin-top: 37vh;
         }
+
 
         .title h2{
           font-size: 80px;
