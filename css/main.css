@@ -370,6 +370,37 @@ img, video{
 
 }
 
+.btnPro{
+  color: black;
+  padding: 16px 40px;
+  border-radius: 4px;
+  border: 0px;
+  box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.10);
+  transition:.2s;
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-right: 24px;
+}
+
+.btnPro:hover{
+  border:0px !important;
+  transform: scale(0.5);
+}
+
+.btnPro:active{
+  border:0px !important;
+  transform: scale(0.9);
+}
+
+
+.btnProBrand{
+  background: #FF5443;
+  color: white;
+  box-shadow: 0px 12px 16px 0px rgb(255, 84, 67,.40);
+}
+
 .btns:hover{
     color: #05f !important;
     background-color: white;
@@ -511,6 +542,12 @@ nav{
     /*background-color: rgba(255, 255, 255, 1);*/
 }
 
+.brandPro{
+  font-family: karla !important;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
 .brandYellow{
   color: #ffc107;
 }
@@ -629,6 +666,10 @@ nav{
     background-position: center;
 }
 
+.headerbgPro{
+background-image: url("../img/bg6.png");
+}
+
 .fourBG{
     background-image: url('../img/headerBG2.gif');
     background-size: cover;
@@ -687,9 +728,7 @@ header{
 }
 
 .titleContainer{
-    margin-top: 28vh;
-    margin-top: 32vh;
-    margin-top: 36vh;
+    margin-top: 26vh;
 
     /* new sytles */
     /* margin-top: 20vh; */
@@ -724,6 +763,13 @@ header{
     color: #ffc107;
     color: white;
 }
+
+.infoPro{
+  font-size: 32px;
+  font-family: 'karla';
+  font-weight: 400;
+}
+
 
 #titleTwo{
   font-size: 64px;
@@ -2213,6 +2259,10 @@ animation: float 4s ease-in-out infinite;
 
         .hidLarge{
           display: block;
+        }
+
+        .infoPro{
+          font-size: 24px;
         }
 
 

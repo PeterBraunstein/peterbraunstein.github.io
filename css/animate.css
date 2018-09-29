@@ -682,6 +682,22 @@
   animation-name: fadeInUp;
 }
 
+@keyframes fadeInUpHalf {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20%, 0);
+  }
+
+  to {
+    opacity: .5;
+    transform: none;
+  }
+}
+
+.fadeInUpHalf {
+  animation-name: fadeInUpHalf;
+}
+
 @keyframes fadeInUpBig {
   from {
     opacity: 0;
@@ -1762,7 +1778,3 @@ fadeIn Quarter opacity
 .fadeInRightQuart {
   animation-name: fadeInRightQuart;
 }
-
-
-
-
