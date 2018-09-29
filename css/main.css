@@ -752,6 +752,10 @@ header{
   margin-top: 26vh;
 }
 
+.titleContainerPro h2{
+  line-height: 48px;
+}
+
 .title{
     font-family: 'Playfair Display', sarif;
     margin-left: -2px;
