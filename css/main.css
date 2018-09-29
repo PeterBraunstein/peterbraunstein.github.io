@@ -507,6 +507,15 @@ nav{
     border-bottom: 2px solid #f1f1f1;
 }
 
+.navLinkPro{
+  color: #a3a3a3;
+}
+
+.navLinkPro:hover{
+  color: black;
+  background-color: rgba(0,0,0,0) !important;
+}
+
 .navItem{
     /*padding-top: 7px;*/
     /* padding: 0px 6px; */
